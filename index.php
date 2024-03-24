@@ -111,7 +111,7 @@
         <form action="forms/confirmacao.php" method="POST">
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Insira seu nome <b class="descricao">(Caso tenha alguma função, coloque do lado)</b></label>
-                <input class="form-control" type="text" name="nome" placeholder="Fulano de tal - Padrinho">
+                <input class="form-control" type="text" name="nome" placeholder="Nome Sobrenome - Função">
                 <label for="exampleFormControlSelect1">Irá comparecer?</label>
                 <select class="form-control" id="exampleFormControlSelect1" name="confirmacao">
                     <option value="s">Sim</option>
