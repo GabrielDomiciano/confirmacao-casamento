@@ -79,12 +79,17 @@
             text-align: center;
         }
         .icone{
-            font-size: 16px;
+            font-size: 15px;
             font-family: Lucida Handwriting, Cursive;
         }
         .icone-2{
           font-size: 19px;
           font-family: Lucida Handwriting, Cursive;
+        }
+        @media screen and (max-width: 768px){
+            .icone{
+                font-size: 10px !important;
+            }
         }
     </style>
 </head>
@@ -122,15 +127,19 @@
         </form>
         <div class="icon-container">
             <div class="icon">
-                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5518991517641" target="_blank"> <img src="img/whatsapp.png" alt="Nayra" style="height: 50px; width: 50px;"> </a>
+                <a href="https://www.querodecasamento.com.br/lista-de-casamento/gabriel-nayra" target="_blank"> <img src="img/presente.png" alt="Nayra" style="height: 42px; width: 42px;"> </a>
+                <p class="icone"> Lista de<br> Presentes </p>
+             </div>
+            <div class="icon">
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5518991517641" target="_blank"> <img src="img/whatsapp.png" alt="Nayra" style="height: 42px; width: 42px;"> </a>
                 <p class="icone"> WhatsApp<br> Nayra </p>
             </div>
             <div class="icon">
-                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5518991353887" target="_blank"> <img src="img/whatsapp.png" alt="Gabriel" style="height: 50px; width: 50px;"> </a>
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5518991353887" target="_blank"> <img src="img/whatsapp.png" alt="Gabriel" style="height: 42px; width: 42px;"> </a>
                 <p class="icone"> WhatsApp<br> Gabriel </p>
             </div>
             <div class="icon">
-                <a href="https://maps.app.goo.gl/KNvX8dZyk7VTSHE7A" target="_blank"><img src="img/localizacao.png" alt="Gabriel" style="height: 50px; width: 50px;"></a>
+                <a href="https://maps.app.goo.gl/KNvX8dZyk7VTSHE7A" target="_blank"><img src="img/localizacao.png" alt="Gabriel" style="height: 42px; width: 42px;"></a>
                 <p class="icone">Localização</p>
             </div>
             <div class="icon">
