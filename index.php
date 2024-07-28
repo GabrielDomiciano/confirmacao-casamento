@@ -146,6 +146,8 @@
                 <p class="icone-2"><b> 31/08/2024 <br> às 17h30 </b></p>
             </div>
         </div>
+        <p class="descricao">Disponibilizamos uma lista de presentes com produtos simbólicos.
+            <br> Ou seja, os produtos serão convertidos em valores para comprarmos posteriormente.</p>
         <br>
         <br>
     </div>
