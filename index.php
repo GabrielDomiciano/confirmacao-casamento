@@ -88,7 +88,7 @@
         }
         @media screen and (max-width: 768px){
             .icone{
-                font-size: 10px !important;
+                font-size: 13px !important;
             }
         }
     </style>
@@ -131,12 +131,12 @@
                 <p class="icone"> Lista de<br> Presentes </p>
              </div>
             <div class="icon">
-                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5518991517641" target="_blank"> <img src="img/whatsapp.png" alt="Nayra" style="height: 42px; width: 42px;"> </a>
-                <p class="icone"> WhatsApp<br> Nayra </p>
+                <a href="#" id="whatsappLink" target="_blank"> <img src="img/icon-cardapio.png" alt="Nayra" style="height: 42px; width: 42px;"> </a>
+                <p class="icone"> Cardápio </p>
             </div>
             <div class="icon">
                 <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5518991353887" target="_blank"> <img src="img/whatsapp.png" alt="Gabriel" style="height: 42px; width: 42px;"> </a>
-                <p class="icone"> WhatsApp<br> Gabriel </p>
+                <p class="icone"> WhatsApp </p>
             </div>
             <div class="icon">
                 <a href="https://maps.app.goo.gl/KNvX8dZyk7VTSHE7A" target="_blank"><img src="img/localizacao.png" alt="Gabriel" style="height: 42px; width: 42px;"></a>
@@ -157,6 +157,12 @@
         setTimeout(function() {
             alertDiv.style.display = 'none';
         }, 2500);
+    </script>
+    <script>
+        document.getElementById('whatsappLink').onclick = function(event) {
+            event.preventDefault();
+            window.open('img/cardapio.jpg', '_blank');
+        };
     </script>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
